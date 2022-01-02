@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ToyApplication",
+            "request": "launch",
+            "mainClass": "com.example.toy.ToyApplication",
+            "projectName": "toy"
+        },
+        {
+            "name": "파이썬",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "파이파이",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "python": "C:/Users/wkdwl/AppData/Local/Programs/Python/pypy3.7-v7.3.5-win64/pypy3.exe"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${file}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "name": "자바",
+            "type": "java",
+            "request": "launch"
+        }
+    ]
+}
