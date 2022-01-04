@@ -1,6 +1,6 @@
-# Spring legacy, Spring boot
+# Spring, Spring boot
 
-Spring legacy의 경우 프레임워크를 구성하는 여러 프로그램, 환경변수, xml파일 bean 설정을 직접 해줘야 하는 반면 Spring boot는 spring initializr를 통해 보일러 플레이트를 제공하고 필요한 라이브러리를 의존성 주입하여 사용할 수 있음
+Spring은 java 기반 웹 프레임워크이고, 서버, 환경변수, xml bean등 여러가지 설정을 해줘야 실행 가능함. Spring boot는 Spring을 쉽게 사용할 수 있도록 spring initializr를 통해 자주 사용하는 보일러 플레이트를 라이브러리 형태로 제공하여 스프링을 구동할 수 있게 함
 
 # spring initializr
 
@@ -31,7 +31,7 @@ bean은 스프링 컨테이너를 통해서 만들어진 객체. 어노테이션
 
 # POJO(Plain Old Java Object)
 
-자바EE(기업용이니까 지원하는 기능이 많고 무거움)의 EJB에 종속되어있는 무거운 객체를 사용하는 것에 반발하여 나온 철학
+자바EE(enterprise edition, 기업용이니까 지원하는 기능이 많고 무거움)의 EJB(enterprise javabeans)에 종속되어있는 무거운 객체를 사용하는 것에 반발하여 나온 철학
 
 # MVC
 
